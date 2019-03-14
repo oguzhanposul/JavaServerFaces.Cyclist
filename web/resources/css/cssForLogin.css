@@ -1,0 +1,54 @@
+#navbar2 .navbar-link{
+    text-decoration: none;
+    margin:2px;
+    margin-left: 5px;
+    color: black;
+    transition:color 0.5s ease-out;
+}
+
+#navbar2 .navbar-link:hover{
+    color:lightskyblue;
+    cursor: pointer;
+}
+
+.navbar{
+    border-bottom: white 1px solid;
+}
+
+#navbarlink{
+    font-size: 20px;
+}
+
+
+#LinkSection{
+    margin-top:57px;
+}
+
+#buton1 ,#buton2,#buton3,#buton4{
+    width: 200px;
+    height: 110px;
+}
+
+#buton5{
+    width:200px;
+    height:96px;
+}
+/*
+body{
+    background-image: url("loginpagebackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+*/
+#butons{
+    margin-left:0px;
+}
+
+#footerID{
+   background-color:white;
+}
+
+#loginpageNot{
+    color:lightsteelblue;
+}

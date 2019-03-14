@@ -1,0 +1,55 @@
+/*Navbar Section*/
+
+#navbar1 .navbar-link{
+    text-decoration: none;
+    margin:2px;
+    margin-left: 5px;
+    color: black;
+    transition:color 0.5s ease-out;
+}
+
+#navbar1 .navbar-link:hover{
+    color:lightskyblue;
+    cursor: pointer;
+}
+
+.navbar{
+    border-bottom: white 1px solid;
+}
+
+#navbarlink{
+    font-size: 20px;
+}
+
+/*Main content*/
+
+#mainpageContent{
+    margin-top:57px;
+    background-size: cover;
+    height: 91vh;
+}
+
+#mainpageContent h2{
+    font-family: arial;
+    font-weight: 200;
+}
+
+.registerbutton{
+    width: 500px !important;
+    margin-top:175px;
+    margin-left:400px;
+}
+
+#loginbutton{
+    width: 500px;
+    margin-top:50px;
+    margin-left:400px;
+}
+
+
+body{
+    background-image: url(reelbisiklet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+}

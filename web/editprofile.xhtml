@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+
+
+        <title>Team Raptor</title>
+
+        <meta charset="utf-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"></link>
+
+        <!--Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+        
+        <style type="text/css">
+
+            #navbar1 .navbar-link{
+                text-decoration: none;
+                margin:2px;
+                margin-left: 5px;
+                color: black;
+                transition:color 0.5s ease-out;
+            }
+
+            #navbar1 .navbar-link:hover{
+                color:lightskyblue;
+                cursor: pointer;
+            }
+
+
+
+            #navbarlink{
+                font-size: 20px;
+            }
+
+#homeIcon{
+    position:absolute;
+    margin-top:170px;
+    border:7px solid black;
+    border-bottom-right-radius: 15px;
+  padding: 5px;
+    border-radius: 25em;
+   
+  
+}
+
+#editprofile{
+    margin-left: 370px;
+                 margin-top:10px;
+                 width: 310px;
+                 height:560px;  
+                 border:3px solid lightsteelblue ;
+                 border-radius:4em;
+                 border-top-right-radius: 3em;
+                 padding: 10px;
+}
+
+#editprofile p{
+    font-family: cursive;
+    font-weight: 800;
+    color:saddlebrown;
+}
+            
+        </style>
+
+    </h:head>
+
+    <h:body style="background-color:bisque;" >
+        
+        
+        
+        <!-- Formdaki verileri alıp databasedekilerin yerine yazıcak bir fonksiyon command butona eklenecek. -->
+        
+        
+        
+        
+        
+        
+        <section id="navbar1">
+            
+        <nav class="navbar navbar-expand-md navbar-light  fixed-top" >
+             <div class="container">
+                 <a class="navbar-brand" href="index.xhtml" id="navbarlink" style="font-family: sans-serif; font-weight:100;">Team Raptor</a>
+            
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item ml-2 "><a class="navbar-link" id="link1" href="index.xhtml">Home</a></li>
+                <li class="navbar-item ml-2"><a class="navbar-link" id="link2" href="aboutus.xhtml" >About Us</a></li>
+                <li class="navbar-item ml-2"><a class="navbar-link" id="link3" href="contact.xhtml">Contact</a></li>
+            </ul>
+         
+             </div>
+        </nav> 
+        </section>
+        
+        
+        
+        <div  id="homeIcon">
+            <a href="mainPage.xhtml" style="color:black;"><i class="fas fa-home fa-7x"></i></a>
+        </div>
+        
+        
+        
+        <section id="mainContent"  style="margin-top:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="editprofile">
+                            <h3 class="font-weight-bold text-center">Edit Profile</h3>
+                            <h:form>
+                                <h:panelGrid columns="2" cellpadding="2" >
+                                    
+                                    <p>Name</p>
+                                    <h:inputText />
+                                    <br></br>
+                                    
+                                    <p>Surname</p>
+                                    <h:inputText/>
+                                       <br></br>
+                                       
+                                    <p>Nickname</p>
+                                    <h:inputText/>
+                                       <br></br>
+                                       
+                                    <p>Password</p>
+                                    <h:inputText/>
+                                       <br></br>
+                                       
+                                       <p>Email</p>
+                                       <h:inputText/>
+                                       <br></br>
+                                       
+                                       <p>Gsm</p>
+                                       <h:inputText/>
+                                       <br></br>
+                                       
+                                       <p>Address</p>
+                                       <h:inputText/>
+                                       <br></br>
+                                       
+                                       <h:commandButton class="btn btn-success btn-block"  value="Edit Profile"></h:commandButton>
+                                    
+                                </h:panelGrid>
+                                
+                            </h:form>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                  
+                    
+                </div>
+            </div>
+    </section>        
+
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</h:body>
+
+</html>
